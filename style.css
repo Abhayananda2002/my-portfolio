@@ -1,20 +1,85 @@
 *{
-    background-color: rgb(206, 213, 214);
+    background-color: white;
 }
 
-a{
-    color:#0D9488;
-}
-
-h1{
-    color:rgb(201, 24, 83);
-}
-
-p{
-    color:rgb(14, 63, 179 );
-}
-
-ul
+.navbar
 {
-    color:blue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    color:black;  
+    /* background-color:black; */
+}
+
+.intro{
+    font-size: 1.3rem;
+    font-weight:bolder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.thin
+{
+    font-size: 1rem;
+    font-weight: 200;
+    margin-left: 7px;
+}
+.panel
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 40%;
+}
+.panel a
+{
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+    font-weight: 400;
+    display: align;
+}
+.border:hover
+{
+  border:3px solid black;
+}
+
+.hero-section
+{
+    margin-top:50px ;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    width: 100%;
+}
+.about
+{
+    margin-left: 200px;
+    width: 25%;
+}
+.hero-section h1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 2.5em;
+    font-weight: bolder;
+}
+
+.hero-section p
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.hero-img
+{
+    background-image: url("hero_section.avif");
+    background-size: cover;
+    margin-right: 150px;
+    width: 50%;
+    height: 100%;
 }
